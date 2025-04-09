@@ -4,7 +4,7 @@ services:
     env: docker
     plan: free
     autoDeploy: true
-    dockerfilePath: ./docker/Dockerfile
+    dockerfilePath: ./docker/dockerfile
     envVars:
       - key: PORT
         value: 3001
